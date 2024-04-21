@@ -120,6 +120,30 @@
         .transparent-box p {
             margin-bottom: 0; /* Remove default margin for paragraph */
         }
+
+        footer {
+            background-color: #77A04E; /* Same color as navigation bar */
+            color: #fff; /* Text color */
+            padding: 20px 0;
+            justify-content: space-between; /* Even spacing between sections */
+            align-items: flex-start; /* Align items at the top */
+        }
+        footer section {
+            width: 45%; /* Adjust width of sections */
+        }
+        footer .contact-details {
+            text-align: center; /* Center-align content within this div */
+            display: top;
+        }
+        h2, p {
+            color: #000000; /* Text color */
+        }
+
+        /* Styling for contact detail icons */
+        .contact-icon {
+            margin-right: 10px;
+            font-size: 24px; /* Adjust icon size as needed */
+        }
         
         
         
@@ -147,6 +171,7 @@
     <!-- Add any other header content or navigation here -->
 </header>
 <nav>
+    <h1> <b> <i> UCIC </b> </i> </h1>
     <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About Us</a></li>
@@ -192,8 +217,35 @@
 
 <footer>
     <!-- Add the footer content here -->
+    <!-- Footer sections -->
+    <section>
+            <!-- First section -->
+            <h2>Sign Up For E-Mail Updates</h2>
+            <p>Stay Updated with the latest News.</p>
+        </section>
+        <section>
+            <!-- Second section -->
+            <h2>Support Us</h2>
+            <p>Give Today And Join Us.</p>
+        </section>
+        <section>
+            <!-- Second section -->
+            <h2>Section 2</h2>
+            <p>This is the content of section 2.</p>
+        </section>
+        <!-- Contact details -->
+        <div class="contact-details">
+            <h2>Contact Details</h2>
+            <!-- Telephone -->
+            <p><span class="contact-icon">&#9742;</span><b>+91-9816400624</b></p>
+            <!-- Location -->
+            <p><span class="contact-icon">&#127968;</span><b> Baru Sahib, Distt Sirmaur, Near Rajgarh, HP,173101</b></p>
+            <!-- Email -->
+            <p><span class="contact-icon">&#9993;</span><b>contact@eternaluniversity.edu.in</b></p>
+        </div>
 </footer>
 
 <!-- Add your JavaScript files or code here -->
+
 </body>
 </html>
